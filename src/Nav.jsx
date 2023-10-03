@@ -1,11 +1,17 @@
-import { Link } from "react-router-dom";
+import Navlink from "./Link";
+
 const Navbar = () => {
   return (
-    <head>
-      <h1>Ben Aguirre</h1>
+    <header>
+      <p>Ben Aguirre</p>
       <ul>
-        <li></li>
+        <Navlink to="/" content="Home"></Navlink>
+        <Navlink to="about" content="About"></Navlink>
+        <Navlink to="projects" content="Projects"></Navlink>
+        <Navlink to="contact" content="Contact"></Navlink>
       </ul>
-    </head>
+    </header>
   );
 };
+
+export default Navbar;

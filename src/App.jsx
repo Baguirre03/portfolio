@@ -1,5 +1,15 @@
+import Navbar from "./Nav";
+import Name from "./Name";
+
 function App() {
-  return <h1>Hello world!</h1>;
+  return (
+    <>
+      <Navbar></Navbar>
+      <main>
+        <Name></Name>
+      </main>
+    </>
+  );
 }
 
 export default App;
