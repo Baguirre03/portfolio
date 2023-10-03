@@ -1,27 +1,31 @@
 import { useState, useEffect } from "react";
+import "./name.css";
+import profile from "./assets/profile.jpg";
 
 export default function Name() {
   const [curr, setCurr] = useState(0);
   const description = ["Web-developer", "Marketer", "Student"];
 
-  const [counter, setCounter] = useState(0);
-
   useEffect(() => {
     const key = setInterval(() => {
-      setCounter((count) => count + 1);
+      setCurr((curr) => (curr === 2 ? 0 : curr + 1));
     }, 4000);
-
     return () => {
       clearInterval(key);
     };
   }, []);
-
   return (
     <>
       <p>Hi there!</p>
       <p>I'm Ben Aguirre</p>
-      <p>A {description[curr]}</p>
-      <img src="" alt="" />
+      <div>
+        a
+        <div key={curr} className="animate">
+          {description[curr]}
+        </div>
+      </div>
+
+      <img src={profile} alt="" />
     </>
   );
 }
