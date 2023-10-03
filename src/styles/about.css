@@ -1,3 +1,13 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #001B2E;
+    color: white;
+    height: 90vh;
+}
+
 img {
     height: 10vh;
 }

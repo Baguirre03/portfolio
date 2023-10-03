@@ -1,5 +1,5 @@
 .name {
-    height: 80vh;
+    height: 93vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,7 +30,7 @@
     border: 1px solid white;
     list-style: none;
     font-size: 1rem;
-    color: #FFEFD3;
+    color: white;
     width: 20%;
     transition: 1s all;
 }

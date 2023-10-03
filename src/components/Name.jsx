@@ -4,11 +4,11 @@ import "../styles/name.css";
 
 export default function Name({ name }) {
   const [curr, setCurr] = useState(0);
-  const description = ["Web-developer", "Marketer", "Student"];
+  const description = ["Web-developer", "Marketer", "Student", "Photographer"];
 
   useEffect(() => {
     const key = setInterval(() => {
-      setCurr((curr) => (curr === 2 ? 0 : curr + 1));
+      setCurr((curr) => (curr === 3 ? 0 : curr + 1));
     }, 4000);
     return () => {
       clearInterval(key);

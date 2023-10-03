@@ -7,7 +7,7 @@ const Navbar = () => {
   window.addEventListener("scroll", () => setScroll(true));
 
   return (
-    <header className={scrolled && "scrolled"}>
+    <header className={scrolled ? "scrolled" : "not-scrolled"}>
       <p>Ben Aguirre</p>
       <ul>
         <Navlink to="/">Home</Navlink>
