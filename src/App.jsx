@@ -1,7 +1,9 @@
-import Navbar from "./Nav";
-import Name from "./Name";
-import About from "./About";
-import "./app.css";
+import Navbar from "./components/Nav";
+import Name from "./components/Name";
+import About from "./components/About";
+import Tools from "./components/Tools";
+
+import "./styles/app.css";
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <main>
         <Name name="/"></Name>
         <About name="about"></About>
+        <Tools name="tools"></Tools>
       </main>
     </>
   );

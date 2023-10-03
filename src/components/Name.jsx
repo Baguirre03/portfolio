@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import "./name.css";
+import Navlink from "./Link";
+import "../styles/name.css";
 
 export default function Name({ name }) {
   const [curr, setCurr] = useState(0);
@@ -24,6 +25,9 @@ export default function Name({ name }) {
           {description[curr]}
         </div>
       </div>
+      <button>
+        <Navlink to="projects">Projects</Navlink>
+      </button>
     </div>
   );
 }

@@ -5,10 +5,10 @@ const Navbar = () => {
     <header>
       <p>Ben Aguirre</p>
       <ul>
-        <Navlink to="/" content="Home"></Navlink>
-        <Navlink to="about" content="About"></Navlink>
-        <Navlink to="projects" content="Projects"></Navlink>
-        <Navlink to="contact" content="Contact"></Navlink>
+        <Navlink to="/">Home</Navlink>
+        <Navlink to="about">About</Navlink>
+        <Navlink to="projects">Projects</Navlink>
+        <Navlink to="contact">Content</Navlink>
       </ul>
     </header>
   );

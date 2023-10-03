@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-export default function Navlink({ to, content }) {
+export default function Navlink({ to, children }) {
   return (
     <li>
       <Link
@@ -10,7 +10,7 @@ export default function Navlink({ to, content }) {
         offset={50}
         duration={500}
       >
-        {content}
+        {children}
       </Link>
     </li>
   );
