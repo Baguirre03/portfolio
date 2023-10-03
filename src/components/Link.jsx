@@ -7,7 +7,7 @@ export default function Navlink({ to, children }) {
         to={to}
         spy={true}
         smooth={true}
-        offset={-10}
+        offset={-90}
         duration={500}
       >
         {children}

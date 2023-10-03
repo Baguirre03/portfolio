@@ -4,8 +4,6 @@ import About from "./components/About";
 import Tools from "./components/Tools";
 import Projects from "./components/Projects";
 
-import "./styles/app.css";
-
 function App() {
   return (
     <>

@@ -16,16 +16,18 @@ export default function Name({ name }) {
   }, []);
 
   return (
-    <div name={name}>
-      <p>Hi there!</p>
-      <p>My name is Ben Aguirre</p>
-      <div>
-        I am a
-        <div key={curr} className="animate">
-          {description[curr]}
+    <div name={name} className="name">
+      <div className="top">
+        <p>Hi there!</p>
+        <h3>My name is Ben Aguirre</h3>
+        <div className="intro">
+          <p>I am a</p>
+          <p key={curr} className="animate">
+            {description[curr]}
+          </p>
         </div>
       </div>
-      <button>
+      <button className="projects-link">
         <Navlink to="projects">Projects</Navlink>
       </button>
     </div>

@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background-color: #001B2E;
+    color: white;
+    height: 3vh;
+    border-bottom: 1px solid white;
+}
+
+header ul {
+    display: flex;
+    gap: 10px;
+}
+
+header li {
+    cursor: pointer;
+    list-style: none;
+}
+
+header.scrolled {
+    background-color: #ADB6C4;
+    color: black;
+    border-bottom: 1px solid black;
+    transition: background-color 400ms linear;
+  }

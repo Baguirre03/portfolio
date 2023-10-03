@@ -1,9 +1,46 @@
-img {
-    height: 30vh;
+.name {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 20px;
+    background-color: #001B2E;
+    color: white;
+}
+
+.intro {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
 }
 
 .animate {
     animation: popin 4s ease-in-out;
+    position: relative;
+    flex: 1;
+}
+
+.projects-link {
+    padding: .4rem;
+    background-color: #294C60;
+    border-radius: 1rem;
+    border: 1px solid white;
+    list-style: none;
+    font-size: 1rem;
+    color: #FFEFD3;
+    width: 20%;
+    transition: 1s all;
+}
+
+.projects-link:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    transition: 1s all;
 }
 
 @keyframes popin {

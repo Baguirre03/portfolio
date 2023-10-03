@@ -1,4 +1,5 @@
 import profile from "../assets/profile.jpg";
+import "../styles/about.css";
 
 export default function About({ name }) {
   return (
