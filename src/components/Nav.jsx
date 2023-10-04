@@ -4,7 +4,13 @@ import { useState } from "react";
 
 const Navbar = () => {
   const [scrolled, setScroll] = useState(false);
-  window.addEventListener("scroll", () => setScroll(true));
+  window.addEventListener("scroll", () => {
+    if (window.scrollY === 0) {
+      setScroll(false);
+    } else {
+      setScroll(true);
+    }
+  });
 
   return (
     <header className={scrolled ? "scrolled" : "not-scrolled"}>

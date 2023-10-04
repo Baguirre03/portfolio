@@ -30,4 +30,12 @@ header.scrolled {
     color: black;
     border-bottom: 1px solid black;
     transition: background-color 400ms linear;
+}
+
+
+header.not-scrolled {
+    background-color: #001B2E;
+    color: white;
+    border-bottom: 1px solid white;
+    transition: background-color 400ms linear;
   }
