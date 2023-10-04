@@ -1,6 +1,12 @@
 import { Link } from "react-scroll";
-export default function Navlink({ to, children }) {
-  return (
+export default function Navlink({ to, children, download }) {
+  return download ? (
+    <li>
+      <a href={download} download="Ben_Aguirre_Resume">
+        {children}
+      </a>
+    </li>
+  ) : (
     <li>
       <Link
         activeClass="active"
