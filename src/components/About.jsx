@@ -12,8 +12,8 @@ export default function About({ name }) {
           am studying marketing with a minor in computer science. About halfway
           through my collegiate joruney and some marketing internships, I found
           that coding was a better fit for me. Since then, I have been learning
-          web development by using{" "}
-          <a href="https://www.theodinproject.com/">The Odin Project</a>
+          web development via using{" "}
+          <a href="https://www.theodinproject.com/">The Odin Project</a>.
         </p>
         <p>
           There I am also an active community member, and contribute as much as
