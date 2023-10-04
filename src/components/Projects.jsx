@@ -29,7 +29,7 @@ const projects = [
     tools: "React, Vite, CSS",
     description:
       "Developed a CV application  that dynamically updates a mock resume in real-time as users inputer their information. Implemented using React and Vite while leveraged useState. Components used allowed in code-resuability",
-    repo: "https://github.com/Baguirre03/cv-appp",
+    repo: "https://github.com/Baguirre03/cv-app",
     live: "https://main--silly-sunburst-feb89a.netlify.app//",
   },
 ];
