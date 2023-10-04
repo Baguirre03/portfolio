@@ -1,8 +1,11 @@
 export default function Toolcard({ data }) {
+  console.log(data);
   return (
     <div className="card">
-      <h4>{data.title || data}</h4>
-      {data.src && <img src={data.src} alt={data.title} />}
+      {data.src && (
+        <img className="tool-image" src={data.src} alt={data.title} />
+      )}
+      <p>{data.title || data}</p>
     </div>
   );
 }

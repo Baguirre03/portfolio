@@ -1,0 +1,32 @@
+.projects-all {
+    padding: 40px 15vw 40px 15vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+* {
+    --dark: #001B2E;
+    --midDark: #294C60;
+    --mid: #ADB6C4;
+    --beige: #FFEFD3;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.project-card {
+    background-color: #294C60;
+}
+
+.project-card li {
+    list-style: none;
+
+}
+
+.project-image {
+    height: 10vh;
+}

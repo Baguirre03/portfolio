@@ -3,7 +3,7 @@ export default function ProjectCard({ data }) {
   return (
     <div className="project-card">
       <h4>{data.title}</h4>
-      <img src={data.imgSrc} alt="" />
+      <img className="project-image" src={data.imgSrc} alt="" />
       <ul>
         Tools:{" "}
         {data.tools.map((tool) => (

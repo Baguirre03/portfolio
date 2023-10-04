@@ -9,6 +9,12 @@
     font-size: 1.2rem;
     border-bottom: 1px solid white;
     align-items: center;
+    padding: 100px 15vw 100px 15vw;
+}
+
+
+.about h2 {
+    color: #FFEFD3;
 }
 
 .about a {
@@ -24,7 +30,6 @@
     display: flex;
     flex-direction: column;    
     gap: 20px;
-    padding: 2rem;
     width: 60%;
 
 }
@@ -41,4 +46,17 @@
     border: 1px solid #D5FFFF;
     border-radius: 1rem;
     height: auto;
+    box-shadow: 2px 2px 2px #ADB6C4;
+}
+
+
+@media (max-width: 900px) {
+    .about {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .me-image {
+        max-width: 100%;
+    }
 }

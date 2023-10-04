@@ -20,6 +20,7 @@ const Navbar = () => {
         <Navlink to="about">About</Navlink>
         <Navlink to="projects">Projects</Navlink>
         <Navlink to="contact">Contact</Navlink>
+        <Navlink>Resume</Navlink>
       </ul>
     </header>
   );

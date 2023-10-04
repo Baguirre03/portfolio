@@ -13,11 +13,12 @@ header {
     color: white;
     height: 3vh;
     border-bottom: 1px solid white;
+
 }
 
 header ul {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 header li {
@@ -30,6 +31,34 @@ header.scrolled {
     color: black;
     border-bottom: 1px solid black;
     transition: background-color 400ms linear;
+}
+
+
+header.scrolled li::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: black;
+    transition: width .4s ease-in;
+  }
+  
+header.scrolled li:hover::after {
+    width: 100%;
+}
+
+  
+header.not-scrolled li::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: white;
+    transition: width .4s ease-in;
+  }
+  
+header.not-scrolled li:hover::after {
+    width: 100%;
 }
 
 

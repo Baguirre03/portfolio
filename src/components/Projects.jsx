@@ -2,6 +2,7 @@ import ProjectCard from "./ProjectCard";
 import aot from "../assets/aot.png";
 import battleship from "../assets/battleship.png";
 import cvApp from "../assets/cv-app.png";
+import "../styles/projects.css";
 
 const projects = [
   {
@@ -35,10 +36,13 @@ const projects = [
 
 export default function Projects({ name }) {
   return (
-    <div name={name}>
-      {projects.map((proj) => (
-        <ProjectCard key={proj} data={proj}></ProjectCard>
-      ))}
+    <div name={name} className="projects-all">
+      <h2>Projects</h2>
+      <div className="projects-container">
+        {projects.map((proj) => (
+          <ProjectCard key={proj} data={proj}></ProjectCard>
+        ))}
+      </div>
     </div>
   );
 }

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useState, useEffect } from "react";
 import Navlink from "./Link";
 import "../styles/name.css";
@@ -22,7 +23,7 @@ export default function Name({ name }) {
           <p>Hi there!</p>
           <h3>My name is Ben Aguirre</h3>
           <div className="intro">
-            <p>I am a</p>
+            <p>and I'm a</p>
             <p key={curr} className="animate">
               {description[curr]}
             </p>
