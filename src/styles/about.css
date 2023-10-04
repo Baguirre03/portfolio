@@ -1,13 +1,44 @@
 .about {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     gap: 20px;
     background-color: #001B2E;
     color: white;
-    height: 90vh;
+    height: min-content;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    border-bottom: 1px solid white;
+    align-items: center;
 }
 
-img {
-    height: 10vh;
+.about a {
+    color: #D5FFFF;
+    text-decoration: none;
+}
+
+.about a:visited {
+    color: #D5FFFF;
+}
+
+.left-about {
+    display: flex;
+    flex-direction: column;    
+    gap: 20px;
+    padding: 2rem;
+    width: 60%;
+
+}
+
+.right-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.me-image {
+    max-width: 80%;
+    border: 1px solid #D5FFFF;
+    border-radius: 1rem;
+    height: auto;
 }

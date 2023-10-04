@@ -10,6 +10,7 @@
     background-position: center;
     background-size: cover;
     background-image: url('../assets/photo-one.jpg');
+    border-bottom: 1px solid white;
 }
 
 .intro {
