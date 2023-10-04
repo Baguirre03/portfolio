@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState, useEffect } from "react";
 import Navlink from "./Link";
+import resume from "../assets/Resume.pdf";
 import "../styles/name.css";
 
 export default function Name({ name }) {
@@ -29,11 +30,16 @@ export default function Name({ name }) {
             </p>
           </div>
         </div>
-        <Navlink to="projects" className="projects-link">
-          <button to="projects" className="projects-link">
-            Projects
-          </button>
-        </Navlink>
+        <div className="main-buttons">
+          <Navlink to="projects" className="projects-link">
+            <button to="projects" className="projects-link">
+              Projects
+            </button>
+          </Navlink>
+          <Navlink className="resume-link" download={resume}>
+            <button className="projects-link">Resume</button>
+          </Navlink>
+        </div>
       </div>
     </div>
   );

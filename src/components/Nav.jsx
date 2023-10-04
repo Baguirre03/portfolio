@@ -1,6 +1,5 @@
 import Navlink from "./Link";
 import "../styles/nav.css";
-import resume from "../assets/Resume.pdf";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -21,7 +20,6 @@ const Navbar = () => {
         <Navlink to="about">About</Navlink>
         <Navlink to="projects">Projects</Navlink>
         <Navlink to="contact">Contact</Navlink>
-        <Navlink download={resume}>Resume</Navlink>
       </ul>
     </header>
   );

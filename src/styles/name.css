@@ -64,3 +64,8 @@
         transform: translateY(-10px);
     }
 }
+
+.main-buttons {
+    display: flex;
+    gap: 10px;
+}

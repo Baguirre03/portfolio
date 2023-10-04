@@ -1,8 +1,9 @@
 import { Link } from "react-scroll";
-export default function Navlink({ to, children, download }) {
+
+export default function Navlink({ to, children, download, className }) {
   return download ? (
     <li>
-      <a href={download} download="Ben_Aguirre_Resume">
+      <a className={className} href={download} download="Ben_Aguirre_Resume">
         {children}
       </a>
     </li>

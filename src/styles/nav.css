@@ -34,6 +34,7 @@ header.scrolled {
 }
 
 
+
 header.scrolled li::after {
     content: '';
     display: block;
@@ -67,4 +68,4 @@ header.not-scrolled {
     color: white;
     border-bottom: 1px solid white;
     transition: background-color 400ms linear;
-  }
+}
