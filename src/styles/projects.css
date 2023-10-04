@@ -2,11 +2,12 @@
     padding: 40px 15vw 40px 15vw;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     background-color: #001B2E;
 }
 
 .projects-all h2 {
+    font-size: 2rem;
     color: #FFEFD3;
 }
 
@@ -24,14 +25,81 @@
 }
 
 .project-card {
-    background-color: #294C60;
+    color: white;
+    display: flex;
+    gap: 20px;
+    font-size: 1.1rem;
+}
+
+.project-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project-title {
+    color: #FFEFD3;
+    font-size: 1.5rem;
+
+}
+
+.project-tools {
+    display: flex;
+    gap: 10px;
+}
+
+.project-description { 
 }
 
 .project-card li {
     list-style: none;
+}
 
+.project-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.project-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ADB6C4;
+    border: white 1px solid;
+}
+
+.project-btn:hover > * {
+    color: white;
+    fill: white;
+    background-color: #294C60;
+    transition: all .5s ease;
+}
+
+.project-a {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 3px;
+    padding-right: 20px;
+}
+
+.button-svg {
+    height: 5vh;
+    width: 5vh;
+}
+
+a {
+ text-decoration: none;
+ color: black;
+}
+
+
+a:visited {
+    color: black;
 }
 
 .project-image {
-    height: 10vh;
+    border: 1px solid #ADB6C4;
+    max-width: 55%;
+    height: auto;
 }
