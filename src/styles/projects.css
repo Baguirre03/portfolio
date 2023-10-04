@@ -3,6 +3,11 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    background-color: #001B2E;
+}
+
+.projects-all h2 {
+    color: #FFEFD3;
 }
 
 * {

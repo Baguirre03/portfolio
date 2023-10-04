@@ -6,7 +6,7 @@
     font-size: 1.2rem;
     padding: 20px;
     padding: 20px 15vw 20px 15vw;
-
+    border-bottom: 1px dashed white;
 }
 
 .skills-list{
@@ -17,8 +17,9 @@
 }
 
 .tools-list {
-    display: flex;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: auto;    
     gap: 20px;
     align-items: center;
     justify-content: center;
