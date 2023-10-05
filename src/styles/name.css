@@ -86,3 +86,17 @@
 .letter:hover {
     color: #001B2E;
 }
+
+@media (max-width: 400px) {
+    .name {
+        font-size: 1.3rem;
+    }
+    .main-buttons {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .main-buttons button {
+        font-size: .9rem;
+    }
+}
