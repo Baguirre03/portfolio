@@ -1,0 +1,41 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #001B2E;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
+    font-size: 1rem;
+    padding: 40px 15vw 40px 15vw;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 40px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-links {
+    display: flex;
+    gap: 2vw;
+}
+
+.contact-svg {
+    height: 5vh;
+    width: 5vh;
+    fill: white;
+}
+
+.contact-title {
+    font-size: 2rem;
+    color: #FFEFD3;
+}
