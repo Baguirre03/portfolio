@@ -12,6 +12,10 @@
     padding: 100px 15vw 100px 15vw;
 }
 
+li {
+    list-style-type: none;
+}
+
 
 .about h2 {
     font-size: 2rem;
@@ -50,6 +54,36 @@
     box-shadow: 2px 2px 2px #ADB6C4;
 }
 
+.about-link{
+    background-color: #294C60;
+    border-radius: 1rem;
+    border: 1px solid white;
+    list-style: none;
+    font-size: 1rem;
+    color: white;
+    width: 30%;
+    transition: 1s all;
+    padding: .4rem 4rem .4rem 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-link:hover {
+    background-color: #ADB6C4;
+    border: 1px solid black;
+    color: black;
+    width: 50%;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.github-callout {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
 
 @media (max-width: 900px) {
     .about {

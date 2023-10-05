@@ -1,4 +1,5 @@
 import profile from "../assets/profile.jpg";
+import Navlink from "./Link";
 import "../styles/about.css";
 
 export default function About({ name }) {
@@ -20,6 +21,12 @@ export default function About({ name }) {
           can since its an open source curriculum! Apart from coding and
           marketing, I love to do Wordle, listen to music and podcasts, and
           doodle, and take photos with my film camera (as seen above).
+        </p>
+        <p className="github-callout">
+          You can also check out my github here for more projects ive made:{" "}
+          <Navlink download="https://github.com/Baguirre03">
+            <button className="about-link">Github</button>
+          </Navlink>
         </p>
       </div>
       <div className="right-about">
