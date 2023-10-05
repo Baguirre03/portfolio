@@ -16,10 +16,10 @@ export default function About({ name }) {
           <a href="https://www.theodinproject.com/">The Odin Project</a>.
         </p>
         <p>
-          There I am also an active community member, and contribute as much as
-          I can since its an open source curriculum! Apart from coding and
-          marketing, I love to do Wordle, listen to music and podcasts, and hang
-          out with people!
+          There I am also an active community member and contribute as much as I
+          can since its an open source curriculum! Apart from coding and
+          marketing, I love to do Wordle, listen to music and podcasts, and
+          doodle, and take photos with my film camera (as seen above).
         </p>
       </div>
       <div className="right-about">

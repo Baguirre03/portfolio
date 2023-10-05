@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
 .name {
     height: 93vh;
     display: flex;
@@ -11,6 +14,16 @@
     background-size: cover;
     background-image: url('../assets/photo-one.jpg');
     border-bottom: 1px solid white;
+}
+
+.top {
+    font-family: 'Merriweather', serif;
+}
+
+
+.my-name {
+    color: #294C60;
+    /* font-family: 'Young Serif', serif; */
 }
 
 .intro {
@@ -68,4 +81,8 @@
 .main-buttons {
     display: flex;
     gap: 10px;
+}
+
+.letter:hover {
+    color: #001B2E;
 }

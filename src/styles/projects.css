@@ -11,13 +11,6 @@
     color: #FFEFD3;
 }
 
-* {
-    --dark: #001B2E;
-    --midDark: #294C60;
-    --mid: #ADB6C4;
-    --beige: #FFEFD3;
-}
-
 .projects-container {
     display: flex;
     flex-direction: column;
@@ -116,8 +109,11 @@
     height: 100%;
 }
 
-.project-image:hover {
+.project-image:hover > img {
     cursor: pointer;
+    transform: translate(-5px, -5px);
+    box-shadow: 10px 10px 10px #FFEFD3;
+    transition: all .3s ease-in-out;
 }
 
 @media (max-width: 900px) {

@@ -40,7 +40,7 @@ export default function Projects({ name }) {
       <h2>Projects</h2>
       <div className="projects-container">
         {projects.map((proj) => (
-          <ProjectCard key={proj} data={proj}></ProjectCard>
+          <ProjectCard key={proj.title} data={proj}></ProjectCard>
         ))}
       </div>
     </div>

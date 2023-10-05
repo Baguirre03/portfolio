@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState, useEffect } from "react";
 import Navlink from "./Link";
-import resume from "../assets/Resume.pdf";
+import resume from "../assets/Ben_Aguirre_Resume.pdf";
 import "../styles/name.css";
 
 export default function Name({ name }) {
@@ -22,7 +22,22 @@ export default function Name({ name }) {
       <div name={name} className="name">
         <div className="top">
           <p>Hi there!</p>
-          <h3>My name is Ben Aguirre</h3>
+          <h3>
+            My name is{" "}
+            <span className="my-name">
+              <span className="letter">B</span>
+              <span className="letter">e</span>
+              <span className="letter">n</span>
+              <span className="letter"> </span>
+              <span className="letter">A</span>
+              <span className="letter">g</span>
+              <span className="letter">u</span>
+              <span className="letter">i</span>
+              <span className="letter">r</span>
+              <span className="letter">r</span>
+              <span className="letter">e</span>
+            </span>
+          </h3>
           <div className="intro">
             <p>and I'm a</p>
             <p key={curr} className="animate">

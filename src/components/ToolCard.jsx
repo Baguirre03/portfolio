@@ -1,5 +1,4 @@
 export default function Toolcard({ data }) {
-  console.log(data);
   return (
     <div className="card">
       {data.src && (

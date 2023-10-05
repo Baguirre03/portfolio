@@ -69,3 +69,13 @@ header.not-scrolled {
     border-bottom: 1px solid white;
     transition: background-color 400ms linear;
 }
+
+
+@media (max-width: 500px) {
+    header ul {
+        display:none;
+    }
+    header {
+        justify-content: flex-start;
+    }
+}
