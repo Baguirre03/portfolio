@@ -13,7 +13,7 @@ export default function ProjectCard({ data }) {
       <div className="project-right">
         <h4 className="project-title">{data.title}</h4>
         <ul className="project-tools">
-          <b>Built with:</b>
+          <p className="built-with">Built with:</p>
           {data.tools}
         </ul>
         <p className="project-description">{data.description}</p>

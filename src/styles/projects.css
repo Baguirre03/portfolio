@@ -125,3 +125,10 @@
         max-width: 100%;
     }
 }
+
+@media (max-width: 400px) {
+    .project-tools {
+        flex-direction: column;
+        gap: 0px;
+    }
+}

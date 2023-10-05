@@ -74,7 +74,7 @@ li {
     background-color: #ADB6C4;
     border: 1px solid black;
     color: black;
-    width: 50%;
+    width: 40%;
     cursor: pointer;
     transition: 1s all;
 }
@@ -82,8 +82,9 @@ li {
 .github-callout {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 5px;
 }
+
 
 @media (max-width: 900px) {
     .about {
