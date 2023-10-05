@@ -19,8 +19,8 @@ export default function About({ name }) {
         <p>
           There I am also an active community member and contribute as much as I
           can since its an open source curriculum! Apart from coding and
-          marketing, I love to do Wordle, listen to music and podcasts, and
-          doodle, and take photos with my film camera (as seen above).
+          marketing, I love to do Wordle, listen to music and podcasts, doodle,
+          and take photos with my film camera (as seen above).
         </p>
         <p className="github-callout">
           You can also check out my github here for more projects ive made:{" "}
