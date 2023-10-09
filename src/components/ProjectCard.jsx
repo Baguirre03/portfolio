@@ -2,14 +2,16 @@
 export default function ProjectCard({ data }) {
   return (
     <div className="project-card">
-      <a
-        className="project-image"
-        href={data.live}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        {data.imgSrc && <img src={data.imgSrc} alt={data.title} />}
-      </a>
+      {data.imgSrc && (
+        <a
+          className="project-image"
+          href={data.live}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={data.imgSrc} alt={data.title} />
+        </a>
+      )}
       <div className="project-right">
         <h4 className="project-title">{data.title}</h4>
         <ul className="project-tools">

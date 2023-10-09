@@ -46,7 +46,7 @@ const projects = [
     title: "This Project! (My portfolio)",
     tools: "React, Vite, CSS",
     description:
-      "Made using React, implement useEffect hook for animation on intro card. Designed using CSS modules for each section and responsive design with media queries",
+      "Made using React, implemented useEffect hook for animation on intro card. Designed using CSS modules for each section and responsive design with media queries",
     repo: "https://github.com/Baguirre03/to-do",
   },
 ];
