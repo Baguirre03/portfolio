@@ -20,7 +20,7 @@ const projects = [
     imgSrc: battleship,
     tools: "JavaScript, CSS, HTML",
     description:
-      "Battleship game made using TDD. Built a smart AI to play against, and interactive game-board",
+      "Battleship game made using TDD. Built a smart AI to play against using a recursive algorithm, along with an interactive game-board",
     repo: "https://github.com/Baguirre03/battleship",
     live: "https://baguirre03.github.io/battleship/",
   },
@@ -29,7 +29,7 @@ const projects = [
     imgSrc: cvApp,
     tools: "React, Vite, CSS",
     description:
-      "Developed a CV application  that dynamically updates a mock resume in real-time as users input their information. Implemented using React and Vite while leveraged useState. Components used allowed in code-reusability",
+      "Developed a CV application  that dynamically updates a mock resume in real-time as users input their information. Implemented using React and Vite while leveraging React concept useState. Components programmed allowed easy code-reusability.",
     repo: "https://github.com/Baguirre03/cv-app",
     live: "https://main--silly-sunburst-feb89a.netlify.app/",
   },
@@ -38,7 +38,7 @@ const projects = [
     imgSrc: todo,
     tools: "JavaScript, HTML, CSS",
     description:
-      "To-do list application that has the ability to save your information in local-storage. Can sort by tasks by date, priority and current week. Prioritized code cleanliness using ES6 modules, and responsive design.",
+      "To-do list application that has the ability to save your information in local-storage. Can sort tasks by date, priority and current week. Prioritized code cleanliness using ES6 modules and SOLID principles, alongside responsive design.",
     repo: "https://github.com/Baguirre03/to-do",
     live: "https://baguirre03.github.io/to-do/",
   },
@@ -46,7 +46,7 @@ const projects = [
     title: "This Project! (My portfolio)",
     tools: "React, Vite, CSS",
     description:
-      "Made using React, implemented useEffect hook for animation on intro card. Designed using CSS modules for each section and responsive design with media queries",
+      "Made using React, implemented useEffect hook for animation on intro card. Designed using CSS modules for each section and responsive design with media queries.",
     repo: "https://github.com/Baguirre03/portfolio",
   },
 ];
