@@ -1,5 +1,6 @@
 import profile from "../assets/profile.jpg";
 import Navlink from "./Link";
+import { Link } from "react-router-dom";
 import "../styles/about.css";
 
 export default function About({ name }) {

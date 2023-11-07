@@ -70,12 +70,27 @@ header.not-scrolled {
     transition: background-color 400ms linear;
 }
 
+.photo-link {
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
 
-@media (max-width: 500px) {
+header.scrolled .photo-link {
+    color: black;
+}
+
+@media (max-width: 600px) {
     header ul {
+        visibility:hidden;
         display:none;
     }
     header {
         justify-content: flex-start;
+    }
+
+    .photo-link  {
+        visibility: visible !important;
     }
 }

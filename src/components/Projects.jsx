@@ -3,9 +3,18 @@ import aot from "../assets/aot.png";
 import battleship from "../assets/battleship.png";
 import cvApp from "../assets/cv-app.png";
 import todo from "../assets/to-do.png";
+import shop from '../assets/shop.png'
 import "../styles/projects.css";
 
 const projects = [
+  {
+    title: "TDD Shopping Cart",
+    imgSrc: shop,
+    tools: "React, React testing library, Vite, CSS",
+    description: "Developed a test-driven development mock shopping cart using React and its testing library. Grabs items from a mock product API and displays them from a real-time fetch. Users can add to cart and view cart as well as incorporating React Router between the home and shop page",
+    repo: "https://github.com/Baguirre03/shopping-cart",
+    live: "https://the-super-cool-shop.netlify.app/",
+  },
   {
     title: "Attack on Titan Memory Card Game",
     imgSrc: aot,
@@ -23,15 +32,6 @@ const projects = [
       "Battleship game made using TDD. Built a smart AI to play against using a recursive algorithm, along with an interactive game-board",
     repo: "https://github.com/Baguirre03/battleship",
     live: "https://baguirre03.github.io/battleship/",
-  },
-  {
-    title: "CV-Application",
-    imgSrc: cvApp,
-    tools: "React, Vite, CSS",
-    description:
-      "Developed a CV application  that dynamically updates a mock resume in real-time as users input their information. Implemented using React and Vite while leveraging React concept useState. Components programmed allowed easy code-reusability.",
-    repo: "https://github.com/Baguirre03/cv-app",
-    live: "https://main--silly-sunburst-feb89a.netlify.app/",
   },
   {
     title: "To-do list",
